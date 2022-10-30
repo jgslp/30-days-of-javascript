@@ -2,7 +2,7 @@
 
 // DAY 02 EXERCISES - LEVEL 1
 // 1. Declare a variable named challenge and assign it to an initial value of "30 Days of Javascript";
-const challenge = "30 Days of JavaScript";
+// const challenge = "30 Days of JavaScript";
 
 // 2. Print the string on the browser console using console.log();
 // console.log(challenge);
@@ -87,4 +87,67 @@ const challenge = "30 Days of JavaScript";
 
 // 25. Use repeat() method to print 30 days of Javascript 2 times
 // console.log(challenge.repeat(2));
+
+// EXERCISES - LEVEL 2
+// 1. Use console.log() to print out the following statement:
+// console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.");
+
+// 2. Using console.log() print out the following quote by Mother Theresa:
+// console.log("'Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.'");
+
+// 3. Check if typeof '10' is exactly equal to 10. If not make exactly equal. 
+// console.log(typeof "10" == 10 ? true : false); // yields false
+// console.log(parseInt("10") == 10 ? true : false); // yields true
+
+// 4. Check if parseFloat('9.8') is equal to 10. If not make it exactly equal to 10.
+// let num = 10;
+// let parseNum = '9.8';
+
+
+// console.log(num == parseNum ? true : false); // yields false
+// console.log(num == Math.round(parseNum) ? true : false); // yields true
+
+
+// 5. Check if "on" is found in both python and jargon. 
+// let python = "python";
+// let jargon = "jargon";
+// let string = "on";
+
+// console.log(python.includes(string) && jargon.includes(string) ? true : false); // yields true
+
+// 6. I hope this course is not full of jargon. CHeck if jargon is in the sentence.
+// let sentence = "I hope this course is not full of jargon.";
+// let word = "jargon";
+
+// console.log(sentence.includes(word)); // yields true
+
+// 7. Generate a random number between 0 and 100 inclusively.
+// const random  = Math.floor(Math.random() * 101);
+// console.log(random);
+
+// 8. Generate a random number between 50 and 100 inclusively.
+// let random = Math.floor((Math.random() * 51) + 50);
+// console.log(random);
+
+// 9. Generate a random number between 0 and 255 inclusively.
+// Math.floor(Math.random() * (max - min + 1) - min);
+// const num  = Math.floor(Math.random() * 256);
+// console.log(num);
+
+// 10. Access the 'JavaScript' string characters using a random number.
+// let string = 'Javascript';
+// let random = Math.floor(Math.random() * (string.length - 0 + 1) - 0);
+
+// console.log(string[random]);
+
+// 11. Use the console.log() and escape characters to print a pattern 
+// \n: new line; \t: Tab/8 spaces; \\: back slash; \' single quote; \" double quote;
+// let string = "1 1 1 1 1 \n 2 1 2 4 8 \n 3 1 3 9 27 \n 4 1 4 16 64 \n 5 1 5 25 125";
+// console.log(string);
+
+// 12. Use substr to slice out the phrase because because because from sentence
+// let sentence = "You cannot end a sentence with because because because is a conjunction";
+// let first = sentence.indexOf("because");
+
+// console.log(sentence.substr(first, 23)); 
 
