@@ -151,3 +151,44 @@
 
 // console.log(sentence.substr(first, 23)); 
 
+// LEVEL 3 EXERCISES
+// 1. Count the number of word love in sentence below:
+// let sentence = "Love is the best thing in this world. Some found their love and some are still looking for their love.";
+// let array = sentence.match(/love/gi); 
+
+// console.log(array.length); // returns 3
+
+// 2. Use match() to count the number of all because
+// let sentence = "You cannot end a sentence with because because because is a conjunction";
+// let array = sentence.match(/because/gi);
+// console.log(array.length); // returns 3
+
+// 3. Clean the following text and find the most frequent word 
+let sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching';
+// Could use below to remove special characters one by one
+// let sentencePer = sentence.replace((/%/g), "");
+// let sentenceAmp = sentencePer.replace((/&/g), "");
+// let sentencePound = sentenceAmp.replace((/#/g), "");
+// let sentenceAt = sentencePound.replace((/@/g), "");
+// let sentenceCleaned = sentenceAt.replace((/\$/g), "");
+// console.log(sentenceCleaned);
+
+// More efficient: show only characters you want to include:
+let cleaned = sentence.replace((/[^0-9a-zA-Z\.\,\!\?\ ]+/g), "");
+
+// Create array split by words
+let array = cleaned.split(" ");
+
+console.log(array);
+
+// 4. Calculate the total annual incomce of the person by extracting the numbers from the following text:
+// let text = "He earns a 5000 euro from salary per month, 10000 euro annual bonus, 150000 euro online courses per month.";
+// let regEx = /\d+/g;
+// let extractedArray = text.match(regEx);
+
+// let monthlySalary = parseInt(extractedArray[0]) * 12;
+// let annualBonus = parseInt(extractedArray[1]);
+// let monthlyCourses = parseInt(extractedArray[2]) * 12;
+
+// let annualSalary = monthlySalary + annualBonus + monthlyCourses;
+// console.log(annualSalary);
