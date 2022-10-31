@@ -130,3 +130,22 @@
 // let width = prompt('Enter width');
 
 // console.log("The area of the rectangle is ", (length * width), " and the perimeter is ", (width * 2 + length * 2));
+
+// 4. Get radius using prompt and calculate the area of a circle (area = pi * r * r) and circumference (c = 2 x pi x r) where pi = 3.14
+// let pi = 3.14
+// let radius = prompt('Enter radius');
+// let area = pi * radius * radius;
+// let circumference = 2 * pi * radius;
+
+// console.log("The area of the circle is ", area, " and the circumference is ", circumference);
+
+// 5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2
+
+// 6. Slope is m = (y2 - y1) / (x2 - x1). Find the slope between point (2, 2) and point (6, 10);
+
+// 7. Compare the slope of above two questions
+
+// 8. Calculate the value of y(y = xsqd + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+
+// 9. Write a script that prompts a user to enter hours and rate per hour. Calculate the pay of the person.
+
