@@ -106,5 +106,23 @@
 // // vii. Find out the numbers of seconds elapsed from January 1, 1970 to now. 
 // console.log(now.getTime()); // returns 1667233120687
 
+// Exercises Level 2
+
+// 1. Write a script that prompts the user to enter base and height of a triangle and calculate an area of a triangle (area = 0.5 x b x h)
+// let base = prompt('Enter triangle base length');
+// let height = prompt('Enter triangle height length');
+
+// console.log("The area of the triangle is", base * height * 0.5);
+// Tried in console, prompts worked; entered 20, 10 and got 100 
 
 
+// // 2. Write a script aht prompts the user to enter side a, side b, and side c of a triangle and calculate the perimeter of triangle.
+// let sideA = prompt('Enter side a length');
+// let sideB = prompt('Enter side b length');
+// let sideC = prompt('Enter side c length');
+
+// console.log("The perimiter of the triangle is "+ (parseInt(sideA) + parseInt(sideB) + parseInt(sideC)));
+
+// Without parseInt it returns 543, using parseInt it returns 12
+
+// 3. 
