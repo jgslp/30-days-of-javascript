@@ -13,3 +13,8 @@
 // let year = 2022;
 
 // console.log(typeof firstName, typeof lastName, typeof country, typeof city, typeof age, typeof isMarried, typeof year);
+
+// 2. Check if '10' is equal to 10.
+
+// console.log('10' === 10); // yields false;
+// console.log('10' == 10); // yields true;
