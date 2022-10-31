@@ -179,7 +179,8 @@ let cleaned = sentence.replace((/[^0-9a-zA-Z\.\,\!\?\ ]+/g), "");
 // Create array split by words
 let array = cleaned.split(" ");
 
-console.log(array);
+console.log(array); // this prints array where each item is a word
+
 
 // 4. Calculate the total annual incomce of the person by extracting the numbers from the following text:
 // let text = "He earns a 5000 euro from salary per month, 10000 euro annual bonus, 150000 euro online courses per month.";
