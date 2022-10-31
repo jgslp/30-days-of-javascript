@@ -88,4 +88,23 @@
 // let python = "python";
 // console.log(!(dragon.includes("on") && python.includes("on"))); // yields false
 
+// 7. Use the Date object to do the following activities:
+// const now = new Date(); // returns 2022-10-31T16:14:10.700Z
+
+// // i. What is the year today?
+// console.log(now.getFullYear()); // returns 2022
+// // ii. What is the month today as a number?
+// console.log(now.getMonth()); // returns 9, (months are 0-11)
+// // iii. What is the date today?
+// console.log(now.getDate()); // returns 31 (days are 1-31)
+// // iv. What is the date today as a number?
+// console.log(now.getDay()); // returns 1 (today is Monday)(Sunday 0 Saturday is 7)
+// // v. What is the hours now?
+// console.log(now.getHours()); // returns 17: it is 17:17 
+// // vi. What is the minutes now?
+// console.log(now.getMinutes()); // returns 17; it is 17:17
+// // vii. Find out the numbers of seconds elapsed from January 1, 1970 to now. 
+// console.log(now.getTime()); // returns 1667233120687
+
+
 
