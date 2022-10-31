@@ -125,4 +125,8 @@
 
 // Without parseInt it returns 543, using parseInt it returns 12
 
-// 3. 
+// 3. Get length and width using prompt and calculate an area of a rectangle and the perimieter
+// let length = prompt('Enter height');
+// let width = prompt('Enter width');
+
+// console.log("The area of the rectangle is ", (length * width), " and the perimeter is ", (width * 2 + length * 2));
