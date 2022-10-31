@@ -61,3 +61,31 @@
 // let python = "python";
 // let jargon = "jargon";
 // console.log(python.length > jargon.length); // yields false
+
+// // 6. Figure out the result of the following expressions first without using the console.log. Then confirm it by using the console.log().
+// // i. (4 > 3 && 10 < 12); // should yield true
+// console.log(4 > 3 && 10 < 12); // true, correct
+// // ii. (4 > 3 && 10 > 12); // should yield false
+// console.log(4 > 3 && 10 > 12); // false, correct
+// // iii. (4 > 3 || 10 < 12); // should yield true
+// console.log(4 > 3 || 10 < 12); // true, correct
+// // iv. (4 > 3 || 10 > 12); // should yield true
+// console.log(4 > 3 || 10 > 12); // true, correct
+// // v. !(4 > 3); // should yield false 
+// console.log(!(4 > 3)); // false, correct
+// // vi. !(4 < 3); // should yield true
+// console.log(!(4 < 3)); // true, correct
+// // vii. !(false); // should yield true 
+// console.log(!false); // true, correct
+// // viii. !(4 > 3 && 10 < 12); // should yield false
+// console.log(!(4 > 3 && 10 < 12)); // false, correct
+// // ix. !(4 > 3 && 10 > 12); // should yield true
+// console.log(!(4 > 3 && 10 > 12)); // true, correct
+// // x. !(4 === '4'); // should yield true
+// console.log(!(4 === '4')); // true, correct
+// // xi. There is no "on" in both dragon and python // should yield false
+// let dragon = "dragon";
+// let python = "python";
+// console.log(!(dragon.includes("on") && python.includes("on"))); // yields false
+
+
