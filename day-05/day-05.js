@@ -5,28 +5,28 @@
 // let array = [];
 
 // 2. Declare an array with more than 5 number of elements
-let countriesVisited = [
-    "USA", 
-    "Canada", 
-    "Bahamas", 
-    "Argentina",
-    "UK", 
-    "France", 
-    "Italy", 
-    "Vatican", 
-    "Spain", 
-    "Morocco", 
-    "Portugal", 
-    "Germany", 
-    "Slovakia", 
-    "Austria", 
-    "Hungary", 
-    "Czechia", 
-    "Belgium", 
-    "Switzerland", 
-    "Netherlands", 
-    "Croatia", 
-    "Bosnia & Herzegovina"];
+// let countriesVisited = [
+//     "USA", 
+//     "Canada", 
+//     "Bahamas", 
+//     "Argentina",
+//     "UK", 
+//     "France", 
+//     "Italy", 
+//     "Vatican", 
+//     "Spain", 
+//     "Morocco", 
+//     "Portugal", 
+//     "Germany", 
+//     "Slovakia", 
+//     "Austria", 
+//     "Hungary", 
+//     "Czechia", 
+//     "Belgium", 
+//     "Switzerland", 
+//     "Netherlands", 
+//     "Croatia", 
+//     "Bosnia & Herzegovina"];
 
 // 3. Find the length of your array.
 // console.log(countriesVisited.length); // returns 21
@@ -64,15 +64,15 @@ let countriesVisited = [
 
 // 6. Declare an array variable named itCompanies and assign initial values listed
 
-let itCompanies = [
-    "Facebook",
-    "Google", 
-    "Microsoft",
-    "Apple",
-    "IBM",
-    "Oracle",
-    "Amazon"
-]
+// let itCompanies = [
+//     "Facebook",
+//     "Google", 
+//     "Microsoft",
+//     "Apple",
+//     "IBM",
+//     "Oracle",
+//     "Amazon"
+// ]
 
 // 7. Print the array using console.log();
 // console.log(itCompanies);
@@ -240,3 +240,82 @@ let itCompanies = [
 // const fullStack = frontEnd.concat(backEnd);
 
 // console.log(fullStack);
+
+// 7. The following is an array of 10 students' ages:
+
+// const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
+// // Sort the array and find the min and max age.
+
+// let sorted = ages.sort();
+// let min = sorted[0];
+// let max = sorted[sorted.length-1];
+// console.log(sorted, "min is", min, "max is", max);
+
+// Find the median age (one middle item or two middle items divided by two);
+
+// console.log(sorted.length);
+
+// the below checks if array length is odd or even and then finds median
+// if (sorted.length % 2 == 0) {
+//     console.log(((sorted[sorted.length / 2]) + (sorted[sorted.length / 2 - 1])) / 2);
+// } else {
+//     console.log((sorted[sorted.length / 2 - 0.5]));
+// }
+
+// Find the range of ages
+
+// let range = sorted[sorted.length - 1] - sorted[0];
+// console.log(range);
+
+// Compare the value of (min - average) and (max - average), use abs() method 
+// let average = ages.reduce((a, b) => a + b, 0) / ages.length;
+// console.log(average); // returns 22.8;
+
+// let minVsAverage = Math.abs(sorted[0] - average);
+// let maxVsAverage = Math.abs(sorted[sorted.length-1] - average);
+
+// console.log("min - average:", minVsAverage, "max - average:", maxVsAverage ); // 3.8 and 3.19 respectively
+
+// 2. Slice the first ten countries from the countries array
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya', 
+  ]
+
+// let sliced = countries.slice(0, 9);
+// console.log(sliced);
+
+// Find the middle countries in the countries array
+
+// if (countries.length % 2 == 0) {
+//     let spliced = countries.splice(countries[countries.length / 2 - 1], 2);
+//     console.log(spliced);
+// } else {
+//     console.log((countries[countries.length / 2 - 0.5]));
+// }
+
+// 3. Divide the countries array in two equal arrays if even. If it is not even, one more country in the first half. 
+
+// let firstArray = [];
+// let secondArray = [];
+// let half = countries.length / 2;
+
+// for (i = 0; i <= countries.length / 2; i ++) {
+//     firstArray.push(countries[i]);
+// }
+
+// for (let j = countries.length - 1; j > countries.length / 2; j--) {
+//     secondArray.unshift(countries[j]);
+// }
+
+// console.log("first array is: ", firstArray, " and second is ", secondArray);
