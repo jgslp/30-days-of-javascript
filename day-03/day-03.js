@@ -173,3 +173,11 @@
 // let weeklyEarning = hours * rate;
 
 // console.log("weekly earning is ", weeklyEarning);
+
+// If the length of your name is greater than 7 say, your name is long, else say your name is short
+// let name = "";
+// if (name.length > 7) {
+//     console.log("Your name is long");
+// } else {
+//     console.log("Your name is short");
+// }
