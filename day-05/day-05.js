@@ -185,4 +185,13 @@ let itCompanies = [
 // console.log(array); // where array where each item is a word
 // console.log(array.length); // returns 13, correct
 
+// 3. In the following shopping cart, add, remove, edit items
 
+// const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+
+// // Add 'meat at the beginnning, sugar to the end
+
+// shoppingCart.unshift('Meat');
+// shoppingCart.push('Sugar');
+// shoppingCart[3] = 'Green Tea';
+// console.log(shoppingCart);
