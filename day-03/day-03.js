@@ -168,4 +168,8 @@
 // y is 0 when x = -3
 
 // 9. Write a script that prompts a user to enter hours and rate per hour. Calculate the pay of the person.
+// let hours = prompt('Enter hours here');
+// let rate = prompt ('Enter rate per hour here');
+// let weeklyEarning = hours * rate;
 
+// console.log("weekly earning is ", weeklyEarning);
