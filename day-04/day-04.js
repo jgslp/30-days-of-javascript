@@ -41,3 +41,18 @@
 // // Ternary
 // (a === b) ? console.log('a is equal to b')
 //     : (a > b) ? console.log('a is greater than b') : ('a is less than b')
+
+// 4. Even numbers are divisible by 2 and the remainder is 0. How do you check if a number is even or not?
+
+// Comparison
+// let number = 10;
+
+// if ((number % 2) === 0) {
+//     console.log(`${number} is even.`);
+// } else {
+//     console.log(`${number} is odd.`);
+// }
+
+// // Ternary
+
+// (number % 2 === 0) ? console.log(`${number} is even.`) : console.log(`${number} is odd.`);
