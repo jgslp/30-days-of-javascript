@@ -56,3 +56,20 @@
 // // Ternary
 
 // (number % 2 === 0) ? console.log(`${number} is even.`) : console.log(`${number} is odd.`);
+
+// EXERCISES LEVEL 2
+
+// 1. Write code which can give grades to students according to their scores
+// let grade = 99;
+
+// if (grade >= 80) {
+//     console.log("Your grade is an A");
+// } else if (grade >= 70) {
+//     console.log("Your grade is a B");
+// } else if (grade >= 60) {
+//     console.log("Your grade is a C");
+// } else if (grade >= 50) {
+//     console.log("Your grade is a D");
+// } else {
+//     console.log("Your grade is an F");
+// }
