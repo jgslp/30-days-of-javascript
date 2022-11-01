@@ -161,6 +161,11 @@
 // console.log(m === m2);
 
 // 8. Calculate the value of y(y = xsqd + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+// let x = -3;
+// let y = (x * x) + (6 * x) + 9;
+// console.log(y);
+
+// y is 0 when x = -3
 
 // 9. Write a script that prompts a user to enter hours and rate per hour. Calculate the pay of the person.
 
