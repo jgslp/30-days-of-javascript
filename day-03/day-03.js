@@ -94,7 +94,7 @@
 // // i. What is the year today?
 // console.log(now.getFullYear()); // returns 2022
 // // ii. What is the month today as a number?
-// console.log(now.getMonth()); // returns 9, (months are 0-11)
+// console.log(now.getMonth() + 1); // returns 10, (months are 0-11)
 // // iii. What is the date today?
 // console.log(now.getDate()); // returns 31 (days are 1-31)
 // // iv. What is the date today as a number?
@@ -226,3 +226,17 @@
 // let secondsLived = years * days * hours * minutes * seconds;
 
 // console.log("You lived", secondsLived, "seconds.");
+
+// 15. Create a human readable time format using the Date time object.
+// const now = new Date();
+// const year = now.getFullYear();
+// const month = now.getMonth() + 1;
+// const date = now.getDate();
+// const hours = now.getHours();
+// const minutes = now.getMinutes(); 
+// // i. YYYY-MM-DD HH:mm
+// console.log(`${year}-${month}-${date} ${hours}:${minutes}`);
+// // ii. DD-MM-YYYY HH:mm
+// console.log(`${date}-${month}-${year} ${hours}:${minutes}`);
+// // iii. DD/MM/YYYY HH:mm
+// console.log(`${date}/${month}/${year} ${hours}:${minutes}`);
