@@ -216,3 +216,13 @@
 // } else {
 //     console.log(`You are ${yearNow - birthYear}. You will be allowed to drive after ${18 - (yearNow - birthYear)} years.`);
 // }
+
+// 14. Write a script that prompts the user to enter a number of years. Calculate the number of seconds a person can live. Assume someone lives just a hundred years.
+// let years = prompt("Enter number of years");
+// let days = 365;
+// let hours = 24;
+// let minutes = 60;
+// let seconds = 60;
+// let secondsLived = years * days * hours * minutes * seconds;
+
+// console.log("You lived", secondsLived, "seconds.");
