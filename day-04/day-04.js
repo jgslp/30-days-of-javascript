@@ -86,3 +86,13 @@
 // } else {
 //     console.log("The season is Summer");
 // }
+
+// 3. Check if a day is a weekend day or a working day. Your script will take a day as an input.
+// let day = prompt("What is the day today?").toLowerCase();
+
+// if (day === "saturday" || day === "sunday") {
+//     console.log(`${day} is a weekend day.`);
+// } else {
+//     console.log(`${day} is a working day.`);
+// }
+
