@@ -115,10 +115,13 @@ let itCompanies = [
 
 // 14. Filter out companies which have more than one 'o' without the filter method
 
-// doesn't work, fix
-for (let i = 0; i < itCompanies.length; i++) {
-   if (itCompanies.indexOf("o") !== itCompanies.lastIndexOf("o")) {
-        itCompanies.shift();
-   } 
-}
-console.log(itCompanies);
+// let newArray = [];
+
+// for (let i = 0; i < itCompanies.length; i++) {
+//    if  (itCompanies[i].includes("o") == false) {
+//         newArray.push(itCompanies[i]);
+//    } else if (itCompanies[i].indexOf("o") === itCompanies[i].lastIndexOf("o")) {
+//         newArray.push(itCompanies[i]);
+//    } 
+// }
+// console.log(newArray);
