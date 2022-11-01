@@ -96,3 +96,15 @@
 //     console.log(`${day} is a working day.`);
 // }
 
+// EXERCISE LEVEL 3
+// 1. Write a program which tells the number of days in a month
+
+// let month = "february";
+
+// if (month === "february") {
+//     console.log(`${month} has 28 days (or 29 days in leap years).`);
+// } else if (month === "september" || month === "april" || month === "june" || month === "november") {
+//     console.log(`${month} has 30 days.`);
+// } else {
+//     console.log(`${month} has 31 days.`);
+// }
