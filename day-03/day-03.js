@@ -148,16 +148,17 @@
 
 // console.log("the slope is ", m, "; the x-intercept is ", x1, "; and the y-intercept is ", y2);
 
-// 6. Slope is m = (y2 - y1) / (x2 - x1). Find the slope between point (2, 2) and point (6, 10);
-// let x1 = 2;
-// let x2 = 6;
-// let y1 = 2;
-// let y2 = 10;
-// let m = (y2 - y1) / (x2 - x1);
+// // 6. Slope is m = (y2 - y1) / (x2 - x1). Find the slope between point (2, 2) and point (6, 10);
+// let x3 = 2;
+// let x4 = 6;
+// let y3 = 2;
+// let y4 = 10;
+// let m2 = (y4 - y3) / (x4 - x3);
 
-// console.log(m); // prints 2; correct
+// console.log("the slope is", m2); // prints 2; correct
 
 // 7. Compare the slope of above two questions
+// console.log(m === m2);
 
 // 8. Calculate the value of y(y = xsqd + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 
