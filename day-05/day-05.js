@@ -195,3 +195,23 @@ let itCompanies = [
 // shoppingCart.push('Sugar');
 // shoppingCart[3] = 'Green Tea';
 // console.log(shoppingCart);
+
+// 4. In the countries array check if 'Ethopia' exists in the aray and if it exists print "ETHIOPIA". If it does not exist add it to the countries list
+
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
+
+//   console.log(countries.includes("Ethiopia")); // returns true
+//   console.log(countries[4].toUpperCase()); // prints to upper case
+
