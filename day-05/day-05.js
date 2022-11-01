@@ -125,3 +125,44 @@ let itCompanies = [
 //    } 
 // }
 // console.log(newArray);
+
+// 15. Sort the array using sort() method. 
+
+// console.log(itCompanies.sort());
+
+// 16. Reverse the array using the reverse() method;
+
+// console.log(itCompanies.reverse());
+
+// 17. Slice out the first 3 companies from the array;
+
+// let sliced = itCompanies.slice(0, 3);
+// console.log(sliced);
+
+// 18. Slice out the last 3 companies from the array
+
+// let sliced = itCompanies.slice(-3);
+// console.log(sliced);
+
+// 19. Slice out the middle IT company or companies from the array
+
+// let sliced = itCompanies.slice(1, -1);
+// console.log(sliced);
+
+// 20. Remove the first IT company from the array;
+
+// let shifted = itCompanies.shift();
+// console.log(shifted, itCompanies);
+
+// 21. Remove the middle IT company or companies from the array;
+
+// let spliced = itCompanies.splice(1, itCompanies.length-2);
+// console.log(spliced, itCompanies);
+
+// 22. Remove the last IT company from the array;
+// let popped = itCompanies.pop();
+// console.log(popped, itCompanies);
+
+// 23. Remove all IT companies
+// let removed = itCompanies.splice(0, itCompanies.length);
+// console.log(removed, itCompanies);
