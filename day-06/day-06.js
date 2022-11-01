@@ -23,6 +23,23 @@
 // } while (count <= 10);
 
 // 2. Iterate 10 to 0 using a for loop, while loop, and do while loop.
+// FOR LOOP
+// let count = 10;
+// for (i = count; i >= 0; i--) {
+//     console.log(count--);
+// }
+
+// WHILE LOOP
+// let count = 10;
+// while (count >= 0) {
+//     console.log(count--);
+// }
+
+// DO WHILE LOOP
+// let count = 10;
+// do {
+//     console.log(count--);
+// } while (count >= 0);
 
 // 3. Iterate 0 to n using a for loop
 
