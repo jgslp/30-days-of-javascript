@@ -174,10 +174,22 @@
 
 // console.log("weekly earning is ", weeklyEarning);
 
-// If the length of your name is greater than 7 say, your name is long, else say your name is short
+// 10. If the length of your name is greater than 7 say, your name is long, else say your name is short
 // let name = "";
 // if (name.length > 7) {
 //     console.log("Your name is long");
 // } else {
 //     console.log("Your name is short");
+// }
+
+// 11. Compare your first name length and your family name length and you should get this output
+// let firstName = "Jackie";
+// let lastName = "Gellick";
+
+// if (firstName.length > lastName.length) {
+//     console.log("Your first name, ", firstName, "is longer than your family name, ", lastName );
+// } else if (firstName.length < lastName.length) {
+//     console.log("Your first name, ", firstName, "is shorter than your family name, ", lastName );
+// } else {
+//     console.log("Your first name ", firstName, "is the same length as your last name, ", lastName);
 // }
