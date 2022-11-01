@@ -215,3 +215,28 @@ let itCompanies = [
 //   console.log(countries.includes("Ethiopia")); // returns true
 //   console.log(countries[4].toUpperCase()); // prints to upper case
 
+// 5. In the webTechs array, check if Sass exists in the array. If it exists print "Sass is a CSS preprocess". If it does not add it to the array and print it. 
+
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+
+//   console.log(webTechs.includes("Sass")); // returns false;
+//   webTechs.push("Sass");
+
+//   console.log(`${webTechs[webTechs.length-1]} is a CSS preprocess.`);
+
+// 6. Concatenate the folowing two variables and store it in a fullStack variable.
+
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux'];
+// const backEnd = ['Node','Express', 'MongoDB'];
+
+// const fullStack = frontEnd.concat(backEnd);
+
+// console.log(fullStack);
