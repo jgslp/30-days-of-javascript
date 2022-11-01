@@ -240,3 +240,28 @@
 // console.log(`${date}-${month}-${year} ${hours}:${minutes}`);
 // // iii. DD/MM/YYYY HH:mm
 // console.log(`${date}/${month}/${year} ${hours}:${minutes}`);
+
+// Exercises: Level 3
+// 1. Create a human readable formate using the Date time object. The hour and minute should be two digits (e.g., 7 hours shoudl be 07);
+// i. YYYY-MM-DD HH:mm
+// const now = new Date();
+// const nowString = now.toString();
+// const year = now.getFullYear();
+// const month = now.getMonth() + 1;
+// const date = now.getDate();
+// const hours = now.getHours();
+// const minutes = now.getMinutes();
+// let monthTwoDigits;
+
+// console.log(now); // prints Tue Nov 01 2022 11:44:11
+// let array = nowString.split(" ");
+// console.log(array); // ['Tue', 'Nov', '01', '2022', '11:48:16', 'GMT+0100', '(Centeral)', 'European', 'Standard', 'Time']
+
+// if (month >= 10) {
+//     monthTwoDigits = month;
+// } else {
+//     monthTwoDigits = (`0${month}`);
+// }
+
+// let readableTime = (`${year}-${monthTwoDigits}-${array[2]} ${array[4][0]}${array[4][1]}:${array[4][3]}${array[4][4]}`);
+// console.log(readableTime);
