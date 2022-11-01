@@ -140,7 +140,13 @@
 // console.log("The area of the circle is ", area, " and the circumference is ", circumference);
 
 // 5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2
+// let y1 = 0;
+// let x1 = (y1 + 2)/ 2;
+// let x2 = 0;
+// let y2 = (2 * 0) - 2;
+// let m = (y2 - y1) / (x2 - x1);
 
+// console.log("the slope is ", m, "; the x-intercept is ", x1, "; and the y-intercept is ", y2);
 
 // 6. Slope is m = (y2 - y1) / (x2 - x1). Find the slope between point (2, 2) and point (6, 10);
 // let x1 = 2;
