@@ -141,7 +141,15 @@
 
 // 5. Calculate the slope, x-intercept and y-intercept of y = 2x - 2
 
+
 // 6. Slope is m = (y2 - y1) / (x2 - x1). Find the slope between point (2, 2) and point (6, 10);
+// let x1 = 2;
+// let x2 = 6;
+// let y1 = 2;
+// let y2 = 10;
+// let m = (y2 - y1) / (x2 - x1);
+
+// console.log(m); // prints 2; correct
 
 // 7. Compare the slope of above two questions
 
