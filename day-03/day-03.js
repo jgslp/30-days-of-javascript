@@ -205,3 +205,14 @@
 // } else if (myAge < yourAge) {
 //     console.log(`I am ${yourAge - myAge} years younger than you.`);
 // }
+
+// 13. Using prompt to enter the year the user was born and if the user is 18 or above allow the user to drive. If not tell them they have to wait a certain number of years.
+// let birthYear = prompt("Enter birth year here")
+// let now = new Date();
+// let yearNow = now.getFullYear();
+
+// if ((yearNow - birthYear) >= 18 ){
+//     console.log(`You are ${yearNow - birthYear}. You are old enough to drive.`);
+// } else {
+//     console.log(`You are ${yearNow - birthYear}. You will be allowed to drive after ${18 - (yearNow - birthYear)} years.`);
+// }
