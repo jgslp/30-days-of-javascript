@@ -166,3 +166,23 @@ let itCompanies = [
 // 23. Remove all IT companies
 // let removed = itCompanies.splice(0, itCompanies.length);
 // console.log(removed, itCompanies);
+
+// EXERCISES LEVEL 2
+
+// 1. Create a separate countries.js file and store the countries array into this file. Create a separate file web_tech.js and sotre the webTechs array in to this file. Access both file in main.js. 
+// I am skipping this item for now
+
+// 2. First remove all the punctuations and change teh string to array and count the number of words in the array.
+// let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.';
+
+// text = text.replaceAll('.', '');
+// text = text.replaceAll(',', '');
+
+// console.log(text); // confirmed that all punctuation has been removed
+
+// let array = text.split(" ");
+
+// console.log(array); // where array where each item is a word
+// console.log(array.length); // returns 13, correct
+
+
