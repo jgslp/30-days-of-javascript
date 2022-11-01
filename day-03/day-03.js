@@ -193,3 +193,15 @@
 // } else {
 //     console.log("Your first name ", firstName, "is the same length as your last name, ", lastName);
 // }
+
+// 12. Declare two variables myAge and yourAge and assign them initial values.
+// let myAge = 33;
+// let yourAge = 37;
+
+// if (myAge == yourAge) {
+//     console.log("We are the same age.");
+// } else if (myAge > yourAge) {
+//     console.log(`I am ${myAge - yourAge} years older than you.`);
+// } else if (myAge < yourAge) {
+//     console.log(`I am ${yourAge - myAge} years younger than you.`);
+// }
