@@ -11,4 +11,4 @@ exercises are correct; I don't think I have reviewed these concepts since the si
 not enter a number, an error message would print to the console using if (typeof variable !== 'number'); however this printed every time no matter whether I entered a number or not. So, I just left it out for now. 
 
 - I was pleased to have completed the final exercise without googling; however I am sure there is 
-a much more efficient way. 
+a much more efficient way to do it. 
