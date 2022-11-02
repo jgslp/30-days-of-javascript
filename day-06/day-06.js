@@ -43,7 +43,30 @@
 
 // 3. Iterate 0 to n using a for loop
 
+// FOR LOOP
+// let n = 15;
+// let count = 0;
+// for (i = 0; i <= n; i++) {
+//     console.log(count ++)
+// }
+
+// // WHILE LOOP
+// let n = 15;
+// let count = 0;
+// while (count <= n) { 
+//     console.log(count++);
+// }
+
+// // DO WHILE LOOP
+// let count = 0; 
+// let n = 15;
+// do {
+//     console.log(count++)
+// } while (count <= n);
+
 // 4. Write a loop that makes the following pattern using console.log();
+
+
 
 // 5. Use a loop to print the following pattern:
 
