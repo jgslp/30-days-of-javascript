@@ -141,3 +141,18 @@
 //     console.log(i, i * i, i * i * i);
 //     i++;
 // } while (i <= 10);
+
+// 7. Use for loop to iterate from 0 to 100 and print only even numbers
+// let x = 0;
+// for (let i = 0; i <= 100; i += 2) {
+//     console.log(i);
+//     x++;
+// } 
+
+// 8. Use for loop to iterate from 0 to 100 and print only even numbers
+// let x = 0;
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 !== 0) {
+//         console.log(i);
+//     } x++;
+// }
