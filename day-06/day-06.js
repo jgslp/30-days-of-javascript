@@ -92,6 +92,27 @@
 
 // 5. Use a loop to print the following pattern:
 
+// FOR LOOP
+// let x = 0;
+// for (let i = 0; i <= 10; i++) {
+//     console.log(`${i} x ${i} = ${i * i}`);
+//     x++;
+// }
+
+ // WHILE LOOP
+//  let x = 0;
+//  while (x <= 10) {
+//     console.log(`${x} x ${x} = ${x * x}`);
+//     x++;
+//  }
+
+// DO WHILE LOOP
+// let x = 0;
+// do {
+//     console.log(`${x} x ${x} = ${x * x}`);
+//     x++;
+// } while (x < 11);
+
 // 6. Using loop print the following pattern
 
 // 7. 
