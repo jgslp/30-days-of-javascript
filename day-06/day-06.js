@@ -115,4 +115,29 @@
 
 // 6. Using loop print the following pattern
 
-// 7. 
+// 7. Using loop print following pattern
+
+// FOR LOOP
+// let x = 0;
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i, i * i, i * i * i);
+//     x++;
+// }
+
+// WHILE LOOP
+
+// let i = 0;
+
+// while (i <= 10) {
+//     console.log(i, i * i, i * i * i);
+//     i++;
+// }
+
+// DO WHILE LOOP
+
+// let i = 0;
+// do {
+//     console.log(i, i * i, i * i * i);
+//     i++;
+// } while (i <= 10);
