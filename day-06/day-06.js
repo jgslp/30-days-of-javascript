@@ -66,6 +66,28 @@
 
 // 4. Write a loop that makes the following pattern using console.log();
 
+// FOR LOOP
+// let x = "";
+
+// for (i = 0; i < 7; i++) {
+//     console.log( x += "#");
+// }
+
+// WHILE LOOP
+// let count = 0;
+// let x = "";
+// while (count < 7) {
+//     console.log(x += "#");
+//     count++;
+// }
+
+// DO WHILE LOOP
+// let count = 0;
+// let x = "";
+// do {
+//     console.log(x += "#");
+//     count ++;
+// } while (count < 7);
 
 
 // 5. Use a loop to print the following pattern:
