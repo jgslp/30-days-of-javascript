@@ -73,3 +73,11 @@
 // }
 
 // circumferenceOfCircle(5);
+
+// 9. Write a function that calculates density
+// function density(mass, volume) {
+//     let density = mass / volume;
+//     console.log(density);
+// }
+
+// density(10, 5);
