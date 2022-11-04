@@ -152,15 +152,27 @@
 
 // 9. Use for loop to iterate 0 to 100 and print only prime numbers
 
-for (let i = 0; i <= 100; i++) {
-  let prime = i > 1;
-  for (let j = 2; j <= Math.sqrt(i); j++) {
-    if (i % j == 0) {
-      prime = false;
-    }
-  }
-  if (prime) {
-    console.log(i, "is prime");
-  }
-}
+// for (let i = 0; i <= 100; i++) {
+//   let prime = i > 1;
+//   for (let j = 2; j <= Math.sqrt(i); j++) {
+//     if (i % j == 0) {
+//       prime = false;
+//     }
+//   }
+//   if (prime) {
+//     console.log(i, "is prime");
+//   }
+// }
 
+// 10. Use a for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+// let sumEven = 0;
+// let sumOdd = 0;
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         sumEven += i;
+//     } else {
+//         sumOdd += i;
+//     }   
+// }
+
+// console.log(`The sum of all evens from 0 to 100 is ${sumEven}. And the sum of all odds is ${sumOdd}`);
