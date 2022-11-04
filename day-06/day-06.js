@@ -496,3 +496,19 @@
 //   for (program of webTechs) {
 //     console.log(program);
 //   }
+
+// Reverse the order of the array without using a reverse method
+// const fruits = [
+//     "banana", 
+//     "orange", 
+//     "mango", 
+//     "lemon"
+// ]
+
+// let reversedFruits = []
+
+// for (fruit of fruits) {
+//     reversedFruits.unshift(fruit);
+// }
+
+// console.log(reversedFruits);
