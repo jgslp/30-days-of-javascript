@@ -412,3 +412,30 @@
 //   }
 
 //   console.log(fiveCharArray);
+
+// 11. Find the longest word in the webtechs array
+
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+
+//   let lengthArray = [];
+
+//   for (program of webTechs) {
+//         lengthArray.push(program.length);
+//   }
+
+//  let max = Math.max(...lengthArray);
+
+// for (program of webTechs) {
+//     if (program.length === max) {
+//         console.log(program);
+//     }
+// }
+
