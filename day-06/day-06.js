@@ -231,3 +231,17 @@
 // }
 
 // console.log(random);
+
+// Exercises - Level 2
+
+// 1. Develop a small script which will generate any number of characters randomID:
+
+// let random = "";
+// let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+// let n = 20;
+
+// for (let i = 0; i < n; i++) {
+//     random += characters.charAt(Math.floor(Math.random() * characters.length));
+// }
+
+// console.log(random);
