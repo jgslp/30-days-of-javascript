@@ -550,3 +550,34 @@
 //   const copy = countries.slice();
 
 //   console.log(copy);
+
+// 2. Arrays are mutable. Create a copy of array which does not modify the original. 
+//  Sort the copied array and store in a variable sortedCountries
+
+// let sortedCountries = copy.sort();
+
+// console.log(sortedCountries);
+
+// 3. Sort the webTechs and mernStack arrays
+
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+
+// const mernStack = [
+//     'MongoDB',
+//     'Express',
+//     'React',
+//     'Node',
+//   ]
+
+// const sortedWebTechs = webTechs.sort();
+// const sortedMernStack = mernStack.sort();
+
+// console.log({sortedWebTechs}, {sortedMernStack});
