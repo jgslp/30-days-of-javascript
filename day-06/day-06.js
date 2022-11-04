@@ -220,3 +220,14 @@
 //     }
 // }
 // console.log(randomArray);
+
+// 15. Develop a small script which generates a six character randomID
+
+// let random = "";
+// let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+// for (let i = 0; i < 6; i++) {
+//     random += characters.charAt(Math.floor(Math.random() * characters.length));
+// }
+
+// console.log(random);
