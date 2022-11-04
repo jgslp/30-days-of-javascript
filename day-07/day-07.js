@@ -54,3 +54,12 @@
 // }
 
 // volumeOfRectPrism(10, 5, 2);
+
+// 7. Write a function that calculates the area of a circle
+// function areaOfCircle(r) {
+//     let pi = 3.14;
+//     let area = pi * r * r;
+//     console.log(area);
+// }
+
+// areaOfCircle(5);
