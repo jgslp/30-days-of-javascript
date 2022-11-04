@@ -581,3 +581,69 @@
 // const sortedMernStack = mernStack.sort();
 
 // console.log({sortedWebTechs}, {sortedMernStack});
+
+// 4. Extract all of the countries that contain the word "land" from the countries array and print it as an array
+
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+
+// let landArray = [];
+
+// for (country of countries) {
+//     if (country.includes("land")) {
+//         landArray.push(country);
+//     }
+// }
+
+// console.log(landArray);
+
+// 5. Find the country containing the highest number of characters in the countries array
+// See item 2-9, same question
+
+// 6. See item 3-4, same question
+
+// 7. Extract all of the countries that contain 4 characters and print it as an array
+
+// let fourCharCountries = [];
+
+// for (country of countries) {
+//     if (country.length === 4) {
+//         fourCharCountries.push(country);
+//     }
+// }
+
+// console.log(fourCharCountries);
+
+// 8. Extract all of the countries containing two or more words and print as an array
+
+// let twoWordCountriesArray= [];
+
+// for (country of countries) {
+//     if (country.includes(" ")) {
+//         twoWordCountriesArray.push(country);
+//     }
+// }
+
+// console.log(twoWordCountriesArray);
+
+// Reverse the countries array and capitalize each country and store it as an array
+
+// let reversed = countries.reverse();
+// let capitalized = [];
+
+// for (country of countries) {
+//     capitalized.push(country.toUpperCase());
+// }
+
+// console.log(capitalized);
