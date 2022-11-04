@@ -24,9 +24,17 @@
 
 // 3. Declare a function addNumbers that takes two parameters and returns a sum
 
-function addNumbers (num1, num2) {
-    let sum = num1 + num2;
-    console.log(sum);
-}
+// function addNumbers (num1, num2) {
+//     let sum = num1 + num2;
+//     console.log(sum);
+// }
 
-addNumbers(10, 5);
+// addNumbers(10, 5);
+
+// 4. Write a function that calculates the area of a rectangle
+// function areaOfRectangle(length, width) {
+//     let area = length * width;
+//     console.log(area);
+// }
+
+// areaOfRectangle(10, 5);
