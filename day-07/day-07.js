@@ -21,3 +21,12 @@
 // }
 
 // printFullName("Jacqueline", "Gellick")
+
+// 3. Declare a function addNumbers that takes two parameters and returns a sum
+
+function addNumbers (num1, num2) {
+    let sum = num1 + num2;
+    console.log(sum);
+}
+
+addNumbers(10, 5);
