@@ -245,3 +245,14 @@
 // }
 
 // console.log(random);
+
+// 2. Write a script which generates a random hexadecimal number
+
+// let random = "";
+// let characters = "0123456789abcdef";
+
+// for (let i = 0; i < 6; i++) {
+//     random += characters.charAt(Math.floor(Math.random() * characters.length));
+// }
+
+// console.log("#" + random);
