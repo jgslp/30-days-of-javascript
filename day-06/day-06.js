@@ -327,3 +327,33 @@
 // }
 
 // console.log(landArray);
+
+// 8. In the countries array, check if there is a country that ends with a substring "ia".
+// If there are, print as an array. If not, print, "These are countries that do not end in ia"
+
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
+
+// let iaArray = [];
+
+// for (country of countries) {
+//     if (country.charAt(country.length-2) === "i" && country.charAt(country.length - 1) === "a")
+//         iaArray.push(country);
+//     }
+
+// if (iaArray.length === 0) {
+//     console.log("None of these countries end in ia");
+// }
+
+// console.log(iaArray);
