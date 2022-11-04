@@ -439,3 +439,28 @@
 //     }
 // }
 
+// 12. Use the webTechs array to create the following array of arrays:
+// [["HTML", 4]...],
+
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+
+//   let webArray = [];
+
+// for (program of webTechs) {
+//     webArray.push(program.split());
+// }
+
+// for (array of webArray) {
+//     array.push(array[0].length);
+// }
+
+// console.log(webArray);
+
