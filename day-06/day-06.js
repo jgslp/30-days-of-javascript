@@ -256,3 +256,13 @@
 // }
 
 // console.log("#" + random);
+
+// Write a script which generates a random rgb color number
+
+// let random = [];
+
+// for (let i = 0; i < 3; i++) {
+//     random.push(Math.floor(Math.random() * 255));
+// }
+
+// console.log(`rbg(${random[0]}, ${random[1]}, ${random[2]})`);
