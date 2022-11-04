@@ -480,3 +480,19 @@
 //   }
 
 // console.log(mern);
+
+// 14. Iterate through the array using a for of loop and print out the items
+
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+
+//   for (program of webTechs) {
+//     console.log(program);
+//   }
