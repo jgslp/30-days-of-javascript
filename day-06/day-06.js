@@ -266,3 +266,32 @@
 // }
 
 // console.log(`rbg(${random[0]}, ${random[1]}, ${random[2]})`);
+
+// Using the countries array, create the following array of arrays:
+// [['Albania', 'ALB', 7]...]
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
+
+//   let newArray = [];
+  
+//   for (country of countries) {
+//     newArray.push(country.split());
+//   }
+
+//  for (array of newArray) {
+//     array.push(array[0].slice(0,3).toUpperCase());
+//     array.push(array[0].length);
+//  }
+
+//  console.log(newArray);
