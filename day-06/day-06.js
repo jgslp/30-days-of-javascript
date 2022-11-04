@@ -200,3 +200,11 @@
 // }
 // array.push(sumEven, sumOdd);
 // console.log(array);
+
+// 13. Develop a small script which generates an array of 5 random numbers
+// let array = [];
+
+// for (let i = 0; i <= 5; i++) {
+//     array.push(Math.floor(Math.random() * 100));
+// }
+// console.log(array);
