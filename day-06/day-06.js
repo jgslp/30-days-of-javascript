@@ -152,18 +152,15 @@
 
 // 9. Use for loop to iterate 0 to 100 and print only prime numbers
 
-// let totalPrimeNumber = 0;
-// for (let i = 0; i <= 100; i++) {
-//   let prime = i > 1;
-//   for (let j = 2; j <= Math.sqrt(i); j++) {
-//     if (i % j == 0) {
-//       prime = false;
-//       break;
-//     }
-//   }
-//   if (prime) {
-//     console.log(i, "is prime");
-//     totalPrimeNumber += 1;
+for (let i = 0; i <= 100; i++) {
+  let prime = i > 1;
+  for (let j = 2; j <= Math.sqrt(i); j++) {
+    if (i % j == 0) {
+      prime = false;
+    }
+  }
+  if (prime) {
+    console.log(i, "is prime");
+  }
+}
 
-//   }
-// }
