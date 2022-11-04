@@ -208,3 +208,15 @@
 //     array.push(Math.floor(Math.random() * 100));
 // }
 // console.log(array);
+
+// 14. Develop a small script which generates an array of 5 random numbers and the numbers must be unique.
+// let randomArray = [];
+// let count = 5;
+
+// while (randomArray.length < count) {
+//     let random = (Math.floor(Math.random() * 100));
+//     if (randomArray.indexOf(random) !== 1) {
+//         randomArray.push(random);
+//     }
+// }
+// console.log(randomArray);
