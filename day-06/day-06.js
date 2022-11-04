@@ -187,3 +187,16 @@
 
 // console.log(`The sum of all evens from 0 to 100 is ${sumEven}. And the sum of all odds is ${sumOdd}`);
 
+// 12. Use for loop to iterate from 0 to 100 and print the sum of alle vens and the sum of all odds as an array.
+// let array = [];
+// let sumEven = 0;
+// let sumOdd = 0;
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         sumEven += i;
+//     } else {
+//         sumOdd += i;
+//     }   
+// }
+// array.push(sumEven, sumOdd);
+// console.log(array);
