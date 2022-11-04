@@ -38,3 +38,11 @@
 // }
 
 // areaOfRectangle(10, 5);
+
+// 5. Write a function that calculates the perimeter of a rectangle
+// function perimeterOfRectangle (length, width) {
+//     let perimeter = 2 * (length + width);
+//     console.log(perimeter);
+// }
+
+// perimeterOfRectangle(10, 5);
