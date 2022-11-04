@@ -357,3 +357,33 @@
 // }
 
 // console.log(iaArray);
+
+// 9. Using the countries array, find the country containing the biggest number of characters
+
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
+
+//   let newArray = []
+
+//   for (country of countries) {
+//     newArray.push(country.length);
+//   }
+  
+// let max = (Math.max(...newArray));
+
+// for (country of countries) {
+//     if (country.length === max) {
+//         console.log(country);
+//     }
+// }
