@@ -46,3 +46,11 @@
 // }
 
 // perimeterOfRectangle(10, 5);
+
+// // 6. Write a function which calculates the volume of a rectangular prism
+// function volumeOfRectPrism(length, width, height) {
+//     let volume = length * width * height;
+//     console.log(volume);
+// }
+
+// volumeOfRectPrism(10, 5, 2);
