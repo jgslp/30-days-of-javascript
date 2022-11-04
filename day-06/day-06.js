@@ -387,3 +387,28 @@
 //         console.log(country);
 //     }
 // }
+
+// 10. Find the country containing only 5 characters and return in an array
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
+
+//   let fiveCharArray = [];
+
+//   for (country of countries) {
+//     if (country.length === 5)  {
+//         fiveCharArray.push(country);
+//     }
+//   }
+
+//   console.log(fiveCharArray);
