@@ -267,7 +267,7 @@
 
 // console.log(`rbg(${random[0]}, ${random[1]}, ${random[2]})`);
 
-// Using the countries array, create the following array of arrays:
+// 6. Using the countries array, create the following array of arrays:
 // [['Albania', 'ALB', 7]...]
 // const countries = [
 //     'Albania',
@@ -295,3 +295,35 @@
 //  }
 
 //  console.log(newArray);
+
+// 7. In the countries array, check to see if there is a country or countries containing
+// the word "land". If there are countries containing "land", print it as an array.
+// If there is no country containing "land", print, "All these countries are without "land"
+
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
+
+// let landArray = [];
+
+// for (country of countries) {
+//     if (country.includes("land")) {
+//         landArray.push(country);
+//     }
+// }
+
+// if (landArray.length === 0) {
+//     console.log("All these countries are without land");
+// }
+
+// console.log(landArray);
