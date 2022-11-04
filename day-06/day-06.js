@@ -89,14 +89,12 @@
 //     count ++;
 // } while (count < 7);
 
-
 // 5. Use a loop to print the following pattern:
 
 // FOR LOOP
-// let x = 0;
+
 // for (let i = 0; i <= 10; i++) {
 //     console.log(`${i} x ${i} = ${i * i}`);
-//     x++;
 // }
 
  // WHILE LOOP
@@ -115,14 +113,10 @@
 
 // 6. Using loop print the following pattern
 
-// 7. Using loop print following pattern
-
 // FOR LOOP
-// let x = 0;
 
 // for (let i = 0; i <= 10; i++) {
 //     console.log(i, i * i, i * i * i);
-//     x++;
 // }
 
 // WHILE LOOP
@@ -143,16 +137,33 @@
 // } while (i <= 10);
 
 // 7. Use for loop to iterate from 0 to 100 and print only even numbers
-// let x = 0;
+
 // for (let i = 0; i <= 100; i += 2) {
 //     console.log(i);
-//     x++;
 // } 
 
-// 8. Use for loop to iterate from 0 to 100 and print only even numbers
-// let x = 0;
+// 8. Use for loop to iterate from 0 to 100 and print only odd numbers
+
 // for (let i = 0; i <= 100; i++) {
 //     if (i % 2 !== 0) {
 //         console.log(i);
-//     } x++;
+//     } 
+// }
+
+// 9. Use for loop to iterate 0 to 100 and print only prime numbers
+
+// let totalPrimeNumber = 0;
+// for (let i = 0; i <= 100; i++) {
+//   let prime = i > 1;
+//   for (let j = 2; j <= Math.sqrt(i); j++) {
+//     if (i % j == 0) {
+//       prime = false;
+//       break;
+//     }
+//   }
+//   if (prime) {
+//     console.log(i, "is prime");
+//     totalPrimeNumber += 1;
+
+//   }
 // }
