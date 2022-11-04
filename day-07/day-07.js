@@ -63,3 +63,13 @@
 // }
 
 // areaOfCircle(5);
+
+// 8. Write a function that calculates the circumference of a circle
+
+// function circumferenceOfCircle(r) {
+//     let pi = 3.14;
+//     let circumference = 2 * pi * r;
+//     console.log(circumference);
+// }
+
+// circumferenceOfCircle(5);
