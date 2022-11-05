@@ -105,3 +105,19 @@
 // }
 
 // convertCToF(22);
+
+// 13. Write a function that calculates bmi. Check if a person is underweight, normal, overweight, or obese
+// function calculateBMI(weightInKG, heightInM) {
+//     let bmi = weightInKG / (heightInM * heightInM);
+//     if (bmi >= 30) {
+//         console.log("obese")
+//     } else if (bmi >= 25) {
+//         console.log("overweight")
+//     } else if (bmi >= 18.5) {
+//         console.log("normal weight") 
+//     } else {
+//         console.log("underweight")
+//     }
+// }
+
+// calculateBMI(50, 1.57);
