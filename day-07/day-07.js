@@ -81,3 +81,11 @@
 // }
 
 // density(10, 5);
+
+// 10. Write a function that calculates the speed of a moving object
+// function speed(distance, time) {
+//     let speed = distance / time;
+//     console.log(speed);
+// }
+
+// speed(10, 5);
