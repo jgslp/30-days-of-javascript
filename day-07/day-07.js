@@ -121,3 +121,18 @@
 // }
 
 // calculateBMI(50, 1.57);
+
+// 14. Write a function called checkSeason, checks month parameter
+// function checkSeason(month) {
+//     if (month === "december" || month === "january" || month === "february") {
+//         console.log("winter");
+//     } else if (month === "march" || month === "april" || month === "may") {
+//         console.log("spring");
+//     } else if (month === "june" || month === "july" || month === "august") {
+//         console.log("summer");
+//     } else {
+//         console.log("autumn");
+//     }
+// }
+
+// checkSeason("november");
