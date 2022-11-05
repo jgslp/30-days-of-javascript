@@ -97,3 +97,11 @@
 // }
 
 // weight(50, 8);
+
+// 12. Write a function that converts C to F
+// function convertCToF(degrees) {
+//     let fahrenheit = (degrees * 9 / 5) + 32;
+//     console.log(fahrenheit);
+// }
+
+// convertCToF(22);
