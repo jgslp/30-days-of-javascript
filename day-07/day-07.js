@@ -89,3 +89,11 @@
 // }
 
 // speed(10, 5);
+
+// 11. write a function that calculates weight
+// function weight(mass, gravity) {
+//     let weight = mass * gravity;
+//     console.log(weight);
+// }
+
+// weight(50, 8);
