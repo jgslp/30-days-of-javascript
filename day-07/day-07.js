@@ -228,3 +228,11 @@
 // } 
 
 // console.log(addItem(["doberman", "golden retriever", "chihuahua"], "poodle"));
+
+// 9. Declare a function named removeItem. It takes an index parameter and returns an array after removing item
+// function removeItem(array, index) {
+//     array.splice(index, 1);
+//     return array;
+// }
+
+// console.log(removeItem(["doberman", "golden retriever", "chihuahua"], 2));
