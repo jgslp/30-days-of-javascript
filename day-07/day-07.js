@@ -260,3 +260,16 @@
 // }
 
 // console.log(sumOfOddNumbers(5));
+
+// 12. Declare a function named sumOfEvens. It takes a number parameter and it adds all the odd numbers in that range. 
+// function sumOfEddNumbers(number) {
+//     let sum = 0;
+//     for (i = 0; i <= number; i++) {
+//         if (i % 2 === 0) {
+//             sum += i;
+//         }
+//     }
+//     return sum;
+// }
+
+// console.log(sumOfEddNumbers(5));
