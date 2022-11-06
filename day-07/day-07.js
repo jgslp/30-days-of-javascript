@@ -220,3 +220,11 @@
 // }
 
 // console.log(capitalizeArray(["pizza", "poodle"]));
+
+// 8. Declare a function addItem, that takes an item parameter and returns an array after adding the item
+// function addItem(array, item) {
+//     array.push(item);
+//     return array;
+// } 
+
+// console.log(addItem(["doberman", "golden retriever", "chihuahua"], "poodle"));
