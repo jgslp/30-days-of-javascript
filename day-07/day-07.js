@@ -247,3 +247,16 @@
 // }
 
 // console.log(sumOfNumbers(4));
+
+// 11. Declare a function named sumOfOdds. It takes a number parameter and it adds all the odd numbers in that range. 
+// function sumOfOddNumbers(number) {
+//     let sum = 0;
+//     for (i = 0; i <= number; i++) {
+//         if (i % 2 !== 0) {
+//             sum += i;
+//         }
+//     }
+//     return sum;
+// }
+
+// console.log(sumOfOddNumbers(5));
