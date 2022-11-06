@@ -188,3 +188,13 @@
 // }
 
 // console.log(showDateTime());
+
+// Write a function named swapValues. This function swaps values of x to y.
+// function swapValues(x, y) {
+//     let temp = x;
+//     x = y;
+//     y = temp;
+//     return (`x = ${x} and y = ${y}`);
+// }
+
+// console.log(swapValues(5, 3));
