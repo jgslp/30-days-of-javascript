@@ -139,7 +139,13 @@
 
 // 15. Write a function findMax that takes three arguments and returns their maximum without using Math.max method
 // function findMax(num1, num2, num3) {
-//    let array = [num1, num2, num3] {
-
-//    }
+//    const array = [num1, num2, num3];
+//    let max = array[0];
+//    for (let i = 0; i < array.length; i++) {
+//     if (array[i] > max) {
+//         max = array[i];
+//     }
+//    } return max
 // }
+
+// console.log(findMax(-10, 2, 200));
