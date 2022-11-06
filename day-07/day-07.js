@@ -175,3 +175,16 @@
 // }
 
 // printArray([1, 2, 3]);
+
+// 4. Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 
+// function showDateTime() {
+//     const now = new Date();
+//     const year = now.getFullYear();
+//     const month = now.getMonth() + 1;
+//     const date = now.getDate();
+//     const hours = now.getHours();
+//     const minutes = now.getMinutes();
+//     return (`${month}/${date}/${year} ${hours}:${minutes}`);
+// }
+
+// console.log(showDateTime());
