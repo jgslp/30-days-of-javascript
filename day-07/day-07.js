@@ -273,3 +273,19 @@
 // }
 
 // console.log(sumOfEddNumbers(5));
+
+// 13. Declare a function named evenAndOdds. It takes a positive integer as a parameter and it counes number of evens and odds in the number
+// function evensAndOdds(number) {
+//     let numOfEvens = 0;
+//     let numOfOdds = 0;
+//     for (i = 0; i <= number; i++) {
+//         if (i % 2 === 0) {
+//             numOfEvens += 1;
+//         } else {
+//             numOfOdds += 1;
+//         }
+//     }
+//     return `The number of odds are ${numOfOdds}. The number of evens are ${numOfEvens}.`
+// }
+
+// console.log(evensAndOdds(100));
