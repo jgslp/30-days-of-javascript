@@ -208,4 +208,15 @@
 //     return reversedArray;
 // }
 
-// console.log(reverseArray([1, 2, 3, 4, 5]))
+// console.log(reverseArray([1, 2, 3, 4, 5]);
+
+// 7. Declare a function named capitalizeArray that takes an array as a parameter and returns the capitalized array
+// function capitalizeArray(array) {
+//     let capitalizedArray = [];
+//     for (const word of array) {
+//         capitalizedArray.push(word.toUpperCase());
+//     }
+//     return capitalizedArray;
+// }
+
+// console.log(capitalizeArray(["pizza", "poodle"]));
