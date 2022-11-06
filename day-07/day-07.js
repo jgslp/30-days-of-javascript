@@ -289,3 +289,7 @@
 // }
 
 // console.log(evensAndOdds(100));
+
+// 14. Write a function which takes any number of arguments and return the sum of arguments
+
+// 15. 
