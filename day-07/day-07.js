@@ -149,3 +149,29 @@
 // }
 
 // console.log(findMax(-10, 2, 200));
+
+// EXERCISES LEVEL 2
+
+// 1. Linear equation is calculated as follows: ax + by + c = 0. Write a function that calculates value of a linear equation.
+// function solveLinEquation(a, b, c) {
+   
+// }
+
+// console.log(solveLinEquation());
+
+// 2. Quadratic equation is calculated as follows ax2 + bx + c = 0. Write a function which solves it
+// function solveQuadratic(a, b, c) {
+    
+// }
+
+// console.log(solveQuadtratic(1, 4, 4));
+
+// 3. Declare a function named printArray. It takes array as a paraemeter and prints out each value of the array
+
+// function printArray(array) {
+//     for (const number of array) {
+//         console.log(number);
+//     }
+// }
+
+// printArray([1, 2, 3]);
