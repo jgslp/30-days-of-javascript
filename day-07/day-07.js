@@ -189,7 +189,7 @@
 
 // console.log(showDateTime());
 
-// Write a function named swapValues. This function swaps values of x to y.
+// 5. Write a function named swapValues. This function swaps values of x to y.
 // function swapValues(x, y) {
 //     let temp = x;
 //     x = y;
@@ -198,3 +198,14 @@
 // }
 
 // console.log(swapValues(5, 3));
+
+// 6. Declare a function named reverseArray. It takes array as a parameter and returns the reverse (don't use method);
+// function reverseArray(array) {
+//     let reversedArray = [];
+//     for (let i = 0; i <= array.length; i++) {
+//         reversedArray.unshift(array[i]);
+//     } 
+//     return reversedArray;
+// }
+
+// console.log(reverseArray([1, 2, 3, 4, 5]))
