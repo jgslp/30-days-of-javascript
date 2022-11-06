@@ -236,3 +236,14 @@
 // }
 
 // console.log(removeItem(["doberman", "golden retriever", "chihuahua"], 2));
+
+// 10. Declare a function named sumOfNumbers. It takes a number parameter and it adds all the numbers in that range
+// function sumOfNumbers(number) {
+//     let sum = 0;
+//     for (i = 0; i <= number; i++) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+
+// console.log(sumOfNumbers(4));
