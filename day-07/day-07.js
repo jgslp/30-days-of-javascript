@@ -292,4 +292,19 @@
 
 // 14. Write a function which takes any number of arguments and return the sum of arguments
 
-// 15. 
+// 15. Write a function which generates randomUserIP
+// function randomUserIP() {
+//     let ipAddress = [];
+//     for (let i = 0; i < 4; i++) {
+//         ipAddress.push(Math.floor(Math.random() * 255));
+//     }
+//     console.log(ipAddress.join("."));
+// }
+
+// console.log(randomUserIP());
+
+// 16. Write a function which generates a randomMacAddress
+
+// 17. Write a function that generates a random hexadecimal number
+
+// 18. Declare a function named userIdGenerator. When this function is called it generates a seven character ID.
