@@ -338,3 +338,36 @@
 // }
 
 // console.log(userIdGenerator());
+
+// EXERCISES LEVEL 3
+// 1. Modify the userIDGenerator function. Declare a function named userIDGeneratedByUser. It doesn't take any
+// parameter but takes two inputs using prompt(). One of the inputs is the number of characters and the second
+// input is the number of ids which are to be generated.
+
+// function userIdGeneratedByUser() {
+//     let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//     let numChars = Number(prompt("Enter the number of characters you want your ID to be"));
+//     let numIds = Number(prompt ("Enter the number of IDs you want to generate"));
+//     let generatedID = "";
+//     for (let i = 0; i < numChars; i++) {
+//             generatedID += possible[Math.floor(Math.random() * possible.length)];
+//         } 
+//     return generatedID;
+// } 
+
+
+// console.log(userIdGeneratedByUser());
+// generates ID but does not generate X number of times
+
+// 2. Write a function named rgbColorGenerator
+// function rbgColorGenerator() {
+//     let rbgArray = [];
+//     let rbg = "rbg("
+//     for (let i = 0; i < 3; i++) {
+//         rbgArray.push(Math.floor(Math.random() * 255));
+//     }
+//     return (rbg + (rbgArray.join(", ")) + ")");
+// }
+
+// console.log(rbgColorGenerator());
+
