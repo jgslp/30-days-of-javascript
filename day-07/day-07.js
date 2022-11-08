@@ -315,3 +315,14 @@
 
 // console.log(randomMacAddress());
 
+// 17. Write a function which generates a random hexa number
+// function randomHexaNumberGenerator() {
+//     let possible = "ABCDEF0123456789";
+//     let hexaNumber = "#";
+//     for (let i = 0; i < 6; i++) {
+//         hexaNumber += possible[Math.floor(Math.random() * possible.length)]
+//     }
+//     return hexaNumber;
+// }
+
+// console.log(randomHexaNumberGenerator());
