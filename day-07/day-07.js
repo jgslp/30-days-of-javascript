@@ -305,12 +305,13 @@
 
 // 16. Write a function which generates a randomMacAddress
 
-function randomMacAddress() {
-    let possible = "ABCDEFabcdef0123456789";
-    let macAddress = "";
-    for (let i = 0; i < 12; i++) {
-        macAddress += possible[Math.floor(Math.random() * possible.length)];
-    } console.log(macAddress);
-}
+// function randomMacAddress() {
+//     let possible = "ABCDEFabcdef0123456789";
+//     let macAddress = "";
+//     for (let i = 0; i < 12; i++) {
+//         macAddress += possible[Math.floor(Math.random() * possible.length )]
+//     }    return macAddress;
+// }
 
-console.log(randomMacAddress());
+// console.log(randomMacAddress());
+
