@@ -305,6 +305,13 @@
 
 // 16. Write a function which generates a randomMacAddress
 
-// 17. Write a function that generates a random hexadecimal number
 
-// 18. Declare a function named userIdGenerator. When this function is called it generates a seven character ID.
+function randomMacAddress() {
+    let possible = "ABCDEFabcdef0123456789"
+    let macAddress = [];
+    for (let i = 0; i < possible.length; i++) {
+        macAddress.push(possible[Math.random() * possible.length])
+    }
+    console.log(macAddress);
+
+console.log(randomMacAddress());
