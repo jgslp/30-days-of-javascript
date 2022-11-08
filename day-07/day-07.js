@@ -326,3 +326,15 @@
 // }
 
 // console.log(randomHexaNumberGenerator());
+
+// 18. Declare a function name userIdGenerator. When this function is called it creates a seven character ID.
+// function userIdGenerator() {
+//     let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//     let id = "";
+//     for (let i = 0; i < 7; i++) {
+//         id += possible[Math.floor(Math.random() * possible.length)];
+//     }
+//     return id;
+// }
+
+// console.log(userIdGenerator());
