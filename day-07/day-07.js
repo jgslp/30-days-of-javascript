@@ -371,3 +371,43 @@
 
 // console.log(rbgColorGenerator());
 
+// 3. Write a function arrayOfHexaColors which returns any number of hexadecimal colors in an array
+
+// function arrayOfHexaColors() {
+//     let possible = "ABCDEF0123456789";
+//     let hexaArray = [];
+//     for (let j = 0; j < 3; j++) {
+//         hexArray[j] = "#";
+//       for (let i = 0; i < 6; i++) {
+//           hexArray[j] += possible[Math.floor(Math.random() * possible.length)]
+//       }
+//     hexaArray.push(hexaNumber);
+//     }
+//     return hexaArray;
+// }
+
+
+// console.log(arrayOfHexaColors());
+
+// Doesn't work, fix later
+
+// 4. Write a function arrayOfRgbColors which returns any number of RGB colors in an array
+
+// 5. Write a function convertHexatoRgb which returns an rgb color
+
+// 6. Write a function convertRgbToHexa which returns a hexa color
+
+// 7. Write a function generateColors which can generate any number of hexa or rgb colors
+
+// 8. Call your function shuffleArray, it takes an array as a parameter and it returns a shuffled array
+
+// 9. Call your function factorial, it takes a whole number as a parameter and returns a factorial of the number
+// function factorial(number) {
+//     let factorial = 1;
+//     for (let i = number; i > 0; i--) {
+//         factorial *= i;
+//     }
+//     return factorial;
+// }
+
+// console.log(factorial(5));
