@@ -452,3 +452,29 @@
 // }
 
 // console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']));
+
+// 15. Write a function called isPrime, which checks if a number is a prime number.
+
+// 16. Write a function which checks if all items are unique in the array
+
+// 17. Write a function which checks if all the items of the array are the same data type
+
+// function checkDataType(array) {
+
+// }
+
+// 19. JavaScript variable names do not support special characters or symbols except $ and _. 
+// Write a function isValidVariable which checks if a variable is valid or invalid
+
+// 20. Write a function called reverseCountries; it takes the countries array, copies it, and returns the reverse
+
+// function reverseCountries(array) {
+//     let arrayCopy = array.slice();
+//     let reversedArray = [];
+//     for (country of array) {
+//       reversedArray.unshift(country);
+//     }
+//     return reversedArray;
+// }
+
+// console.log(reverseCountries(["Albania", "Bosnia", "Canada"]))
