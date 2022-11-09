@@ -411,3 +411,44 @@
 // }
 
 // console.log(factorial(5));
+
+// 10. Call your function isEmpty; it takes a parameter and checks if it is empty or not
+// function isEmpty(param) {
+//     if
+// }
+
+// 11. Call your function sum, it takes any number of arguments and returns the sum
+
+// 12. Write a function called sumOfArrayItems, it takes an array as a parameter and returns the sum of all the items
+// Check if all the array items are numbers. If not give return reasonable feedback
+
+// function sumOfArrayItems(array) {
+//     let sum = 0;
+//     for (const item of array) {
+//         if (typeof item !== "number") {
+//             return "Not a number"
+//         } else {
+//         return sum += item;
+//     }
+// }
+
+// console.log(sumOfArrayItems([1, 2, 3, 4]));
+// doesn't work, fix it
+
+// 13. Write a function called average which takes an array parameter and returns the average of the items. 
+// Check if all the array items are numbers. If not give return reasonable feedback
+
+// 14. Write a function called modifyArray, it takes an array as a parameter and modifies the fifth item of the array and return the array
+// If the array length is less than five return "item not found" 
+
+// function modifyArray(array) {
+//     if (array.length < 5) {
+//         return "item not found";
+//     } else {
+//         array[4] = array[4].toUpperCase();
+//         return array;
+//     }
+    
+// }
+
+// console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']));
