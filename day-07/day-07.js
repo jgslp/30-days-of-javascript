@@ -461,10 +461,14 @@
 
 // function checkDataType(array) {
 
-// }
 
-// 19. JavaScript variable names do not support special characters or symbols except $ and _. 
+// 18. JavaScript variable names do not support special characters or symbols except $ and _. 
 // Write a function isValidVariable which checks if a variable is valid or invalid
+
+// 19. Write a function which returns array of seven random numbers in a range of 0-9. All teh numbers must be unique
+
+function sevenRandomNumbers()
+// returns [1, 4, 5, 7, 9, 8, 0] for example
 
 // 20. Write a function called reverseCountries; it takes the countries array, copies it, and returns the reverse
 
