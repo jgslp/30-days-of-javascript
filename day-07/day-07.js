@@ -291,6 +291,15 @@
 // console.log(evensAndOdds(100));
 
 // 14. Write a function which takes any number of arguments and return the sum of arguments
+// function sumAllNumbers() {
+//     let sum = 0;
+//     for (let i = 0; i < arguments.length; i++) {
+//         sum += arguments[i]
+//     }
+//     return sum;
+// }
+
+// console.log(sumAllNumbers(1, 2, 3, 4));
 
 // 15. Write a function which generates randomUserIP
 // function randomUserIP() {
@@ -467,7 +476,7 @@
 
 // 19. Write a function which returns array of seven random numbers in a range of 0-9. All teh numbers must be unique
 
-function sevenRandomNumbers()
+// function sevenRandomNumbers()
 // returns [1, 4, 5, 7, 9, 8, 0] for example
 
 // 20. Write a function called reverseCountries; it takes the countries array, copies it, and returns the reverse
