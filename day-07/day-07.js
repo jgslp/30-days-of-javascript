@@ -398,9 +398,20 @@
 
 // console.log(arrayOfHexaColors(5));
 
-
-
 // 4. Write a function arrayOfRgbColors which returns any number of RGB colors in an array
+// function arrayOfRgbColors(numColors) {
+//     let array = [];
+//     for (let i = 0; i < numColors; i++) {
+//         let first = Math.floor(Math.random() * 255);
+//         let second = Math.floor(Math.random() * 255);
+//         let third = Math.floor(Math.random() * 255);
+//         let rgbColors = `rgb(${first}, ${second}, ${third})`;
+//         array.push(rgbColors);
+//     }
+//     return array;
+// }
+
+// console.log(arrayOfRgbColors(3));
 
 // 5. Write a function convertHexatoRgb which returns an rgb color
 
