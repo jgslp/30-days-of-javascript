@@ -18,3 +18,13 @@ dog.age = 8;
 dog.bark = function() {return "woof woof"};
 console.log(dog.bark());
 
+// 4. Get name, legs, color, age, and bark value from the dog object
+console.log(Object.values(dog));
+
+// 5. Set new properties for the dog object: breed, getDogInfo
+dog.breed = "poodle";
+dog.getInfo = function() {
+    console.log(`${dog.name} is a ${dog.color} ${dog.breed} with ${dog.legs} legs who is ${dog.age} years old and says ${dog.bark()}`);
+}
+
+console.log(dog.getInfo());
