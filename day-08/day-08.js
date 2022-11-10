@@ -141,3 +141,9 @@ const users = {
 //     points: 9000
 // }
 // console.log(usersCopy);
+
+// 5. Get all keys or properties of the users object
+console.log(Object.keys(users));
+
+// 6. Get all the values of users object
+console.group(Object.values(users));
