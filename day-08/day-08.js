@@ -143,7 +143,22 @@ const users = {
 // console.log(usersCopy);
 
 // 5. Get all keys or properties of the users object
-console.log(Object.keys(users));
+// console.log(Object.keys(users));
 
 // 6. Get all the values of users object
-console.group(Object.values(users));
+// console.group(Object.values(users));
+
+// 7. Use the countries object to print a country name, capital, populations, and languages
+const countries = {
+    USA: {
+        capital: 'Washington, D.C.', 
+        population: 331900000,
+        languages: ['English']
+    }, 
+    Spain: {
+        capital: 'Madrid',
+        population: 47330000,
+        languages: ['Basque', 'Catalan', 'Gallego', 'Spanish']
+    }
+}
+
