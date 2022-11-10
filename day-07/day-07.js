@@ -357,16 +357,18 @@
 //     let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 //     let numChars = Number(prompt("Enter the number of characters you want your ID to be"));
 //     let numIds = Number(prompt ("Enter the number of IDs you want to generate"));
-//     let generatedID = "";
-//     for (let i = 0; i < numChars; i++) {
-//             generatedID += possible[Math.floor(Math.random() * possible.length)];
-//         } 
-//     return generatedID;
+//     let idList = [];
+//         for (i = 0; i < numIds; i ++) {
+//             idList[i] = "";
+//             for (let j = 0; j < numChars; j++) {
+//                 idList[i] += possible[Math.floor(Math.random() * possible.length)];
+//             } 
+//         }
+    
+//     return idList;
 // } 
 
-
 // console.log(userIdGeneratedByUser());
-// generates ID but does not generate X number of times
 
 // 2. Write a function named rgbColorGenerator
 // function rbgColorGenerator() {
