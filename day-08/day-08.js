@@ -94,7 +94,31 @@ const users = {
 
 // console.log(mostSkills);
 
-// 2. Find the people who are MERN stack developers from the users object
+// 2. Count logged in users, count users having greater than or equal to 50 points
+
+// let loggedIn = "The users logged in are: ";
+// let bigPoints = "The users with at least 50 points are: ";
+// let loggedInWithPoints = "";
+// for (let user in users) {
+//     if (users[user].isLoggedIn === true) {
+//         loggedIn += user + ", ";
+//     }
+// }
+
+// for (let user in users) {
+//     if (users[user].points >= 50) {
+//         bigPoints += user + ", "
+//     }
+// }
+// loggedIn = loggedIn.slice(0, loggedIn.length - 2);
+// bigPoints = bigPoints.slice(0, bigPoints.length - 2);
+
+// loggedInWithPoints = `${loggedIn}. ${bigPoints}.`
+
+
+// console.log(loggedInWithPoints);
+
+// 3. Find the people who are MERN stack developers from the users object
 // let mernUsers = "MERN users are: ";
 // for (let user in users) {
 //     if (users[user].skills.includes('MongoDB') && 
@@ -106,3 +130,5 @@ const users = {
 // }
 
 // console.log(mernUsers);
+
+// 3. 
