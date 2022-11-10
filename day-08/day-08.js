@@ -94,3 +94,15 @@ const users = {
 
 // console.log(mostSkills);
 
+// 2. Find the people who are MERN stack developers from the users object
+// let mernUsers = "MERN users are: ";
+// for (let user in users) {
+//     if (users[user].skills.includes('MongoDB') && 
+//         users[user].skills.includes('Express') &&
+//         users[user].skills.includes('React') &&
+//         users[user].skills.includes('Node')) {
+//             mernUsers += user + ", ";
+//         }
+// }
+
+// console.log(mernUsers);
