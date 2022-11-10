@@ -131,4 +131,13 @@ const users = {
 
 // console.log(mernUsers);
 
-// 3. 
+// 4. Set your name in the users object without modifying the original users object
+// let usersCopy = structuredClone(users);
+// usersCopy.Jackie = {
+//     email: 'jackie@email.com',
+//     skills: ['HTML', 'CSS', 'JavaScript', 'Node'],
+//     age: 33,
+//     isLoggedIn: true,
+//     points: 9000
+// }
+// console.log(usersCopy);
