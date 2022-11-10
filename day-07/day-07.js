@@ -384,23 +384,21 @@
 
 // 3. Write a function arrayOfHexaColors which returns any number of hexadecimal colors in an array
 
-// function arrayOfHexaColors() {
+// function arrayOfHexaColors(n) {
 //     let possible = "ABCDEF0123456789";
 //     let hexaArray = [];
-//     for (let j = 0; j < 3; j++) {
-//         hexArray[j] = "#";
+//     for (let j = 0; j < n; j++) {
+//         hexaArray[j] = "#";
 //       for (let i = 0; i < 6; i++) {
-//           hexArray[j] += possible[Math.floor(Math.random() * possible.length)]
+//           hexaArray[j] += possible[Math.floor(Math.random() * possible.length)];
 //       }
-//     hexaArray.push(hexaNumber);
 //     }
 //     return hexaArray;
 // }
 
+// console.log(arrayOfHexaColors(5));
 
-// console.log(arrayOfHexaColors());
 
-// Doesn't work, fix later
 
 // 4. Write a function arrayOfRgbColors which returns any number of RGB colors in an array
 
