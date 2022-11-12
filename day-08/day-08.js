@@ -162,3 +162,8 @@ const countries = {
     }
 }
 
+for (const country in countries) {
+    console.log(`${country} has a population of ${countries[country].population}. The capital is ${countries[country].capital} and the language(s) spoken is/are ${countries[country].languages}`)
+}
+
+
