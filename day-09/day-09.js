@@ -74,7 +74,12 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 
 // console.log(sixCharCountries); // prints ['Sweden', 'Norway']
 
-// 13. Use filter to filter out countries containing six letters and more in the country array
+// // 13. Use filter to filter out countries containing six letters and more in the country array
+// const sixPlusCharCountries = countries.filter((country) =>
+//     country.length >= 6
+// )
+
+// console.log(sixPlusCharCountries); // prints ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
 
 // 14. Use filter to filter out countries starting with "E"
 
