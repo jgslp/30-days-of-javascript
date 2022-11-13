@@ -147,6 +147,10 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // const firstIndexContainingSixLetters = countries.findIndex((country) => country.length === 6);
 // console.log(firstIndexContainingSixLetters); // prints 1
 
-// 25. Use findIndex to find the position of Norway. If it doesn't exist in the array, you will get -1
+// // 25. Use findIndex to find the position of Norway. If it doesn't exist in the array, you will get -1
+// const findIndexOfNorway = countries.findIndex((country) => country === "Norway")
+// console.log(findIndexOfNorway);
 
-// 26. Use the findIndex to find the position of Russia. If it doesn't exist in teh array, you will get -1
+// // 26. Use the findIndex to find the position of Russia. If it doesn't exist in teh array, you will get -1
+// const findIndexOfRussia = countries.findIndex((country) => country === "Russia")
+// console.log(findIndexOfRussia);
