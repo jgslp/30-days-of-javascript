@@ -97,7 +97,7 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // )
 // console.log(pricesWithValues);
 
-// 16. Declare a function called getStringLists which takes an array as a parameter and returns an array only with string items
+// // 16. Declare a function called getStringLists which takes an array as a parameter and returns an array only with string items
 // function getStringList(array) {
 //     const stringList = array.filter((item) => 
 //     typeof item === "string"
@@ -106,3 +106,29 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // }
 
 // console.log(getStringList([1, "pizza", "spaghetti", [4, 5, 6], true]));
+
+// // 17. Use reduce to sum all numbers in the numbers array
+// const sum = numbers.reduce((accumulator, currentValue) => {
+//     return accumulator + currentValue;
+// }, 0)
+
+// console.log(sum); // 55
+
+// 18. Use reduce to concatenate all the countries to produce this sentence:
+// Estonia, Finland, Sweden, Denmark, Norway, and Iceland are all northern European countries.
+
+// 19. Explain the difference between some and every 
+
+// 20. Use some to check if some names' length is greater than seven in names array
+
+// 21. Use every to check if all the countries contain the word land
+
+// 22. Explain the difference between find and findIndex
+
+// 23. Use find to find the first country containing only six letters in the countries array
+
+// 24. Use findIndex to find the position of the first country containing only six letters in the countries array
+
+// 25. Use findIndex to find the position of Norway. If it doesn't exist in the array, you will get -1
+
+// 26. Use the findIndex to find the position of Russia. If it doesn't exist in teh array, you will get -1
