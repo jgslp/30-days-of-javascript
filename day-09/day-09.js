@@ -136,10 +136,16 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // console.log(doAllCountriesContainLand); // prints false
 
 // 22. Explain the difference between find and findIndex
+// find: returns the first element that satisfies the condition
+// findIndex: returns the position of the first element that satisfies the condition
 
-// 23. Use find to find the first country containing only six letters in the countries array
+// // 23. Use find to find the first country containing only six letters in the countries array
+// const firstCountryContainingSixLetters = countries.find((country) => country.length === 6);
+// console.log(firstCountryContainingSixLetters); // prints 'Sweden`
 
-// 24. Use findIndex to find the position of the first country containing only six letters in the countries array
+// // 24. Use findIndex to find the position of the first country containing only six letters in the countries array
+// const firstIndexContainingSixLetters = countries.findIndex((country) => country.length === 6);
+// console.log(firstIndexContainingSixLetters); // prints 1
 
 // 25. Use findIndex to find the position of Norway. If it doesn't exist in the array, you will get -1
 
