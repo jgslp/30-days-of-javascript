@@ -114,8 +114,13 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 
 // console.log(sum); // 55
 
-// 18. Use reduce to concatenate all the countries to produce this sentence:
-// Estonia, Finland, Sweden, Denmark, Norway, and Iceland are all northern European countries.
+// // 18. Use reduce to concatenate all the countries to produce this sentence:
+// // Estonia, Finland, Sweden, Denmark, Norway, and Iceland are all northern European countries.
+// const concatenatedCountries = countries.reduce((accumulator, currentValue) =>{
+//     return accumulator + ", " + currentValue;
+// })
+
+// console.log(`${concatenatedCountries} are all northern European countries.`);
 
 // 19. Explain the difference between some and every 
 
