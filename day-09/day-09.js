@@ -37,16 +37,25 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // // 5. Use forEach to console.log each number in the numbers array
 // numbers.forEach((element) => console.log(element));
 
-// 6. Use map to create a new array by changing each country to uppercase in the countries array
-// const modifiedCountries = countries.map((country) => console.log(country.toUpperCase()));
+// // 6. Use map to create a new array by changing each country to uppercase in the countries array
+// const capitalizedCountries = countries.map((country) =>(country.toUpperCase()));
+// console.log(capitalizedCountries);
 
-// vs. using forEach
+// // vs. using forEach
 // countries.forEach((element) => console.log(element.toUpperCase()));
 
-// 7. Use map to create an aray of countries length from countries array
+// // 7. Use map to create an aray of countries length from countries array
+// const charLengthOfCountries = countries.map((country) => (country.length));
+// console.log(charLengthOfCountries);
 
-// 8. Use map to create a new array by changing each number to square in the numbers array
+// // 8. Use map to create a new array by changing each number to square in the numbers array
+// const squaredNumbers = numbers.map((number) => (number * number));
+// console.log(squaredNumbers);
 
-// 9. Use map to change each name to upperCase in the names array
+// // 9. Use map to change each name to upperCase in the names array
+// const capitalizedNames = names.map((name) => (name.toUpperCase()));
+// console.log(capitalizedNames);
 
-// 10. Use map to map the products array to its corresponding prices
+// // 10. Use map to map the products array to its corresponding prices
+// const pricesOfProducts = products.map((product)=> product.product + ": " + product.price);
+// console.log(pricesOfProducts);
