@@ -38,9 +38,7 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // numbers.forEach((element) => console.log(element));
 
 // 6. Use map to create a new array by changing each country to uppercase in the countries array
-const modifiedCountries = countries.map(function (element)) {
-    return element.toUpperCase()
-}
+// const modifiedCountries = countries.map((country) => console.log(country.toUpperCase()));
 
 // vs. using forEach
 // countries.forEach((element) => console.log(element.toUpperCase()));
