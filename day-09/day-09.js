@@ -81,7 +81,12 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 
 // console.log(sixPlusCharCountries); // prints ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
 
-// 14. Use filter to filter out countries starting with "E"
+// // 14. Use filter to filter out countries starting with "E"
+// const firstLetterECountries = countries.filter((country) => 
+//     country[0] === ""
+// )
+
+// console.log(firstLetterECountries); // returns empty array
 
 // 15. Use filter to filter out only prices with values
 
