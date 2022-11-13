@@ -59,3 +59,19 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // // 10. Use map to map the products array to its corresponding prices
 // const pricesOfProducts = products.map((product)=> product.product + ": " + product.price);
 // console.log(pricesOfProducts);
+
+// // 11. Use filter to filter out countries countaining land
+// const countriesContainingLand = countries.filter((country) => 
+//     country.includes('land')
+// )
+
+// console.log(countriesContainingLand); // prints ['Finland']
+
+// 12. Use filter to filter out countries having six characters
+
+// 13. Use filter to filter out countries containing six letters and more in the country array
+
+// 14. Use filter to filter out countries starting with "E"
+
+// 15. Use filter to filter out only prices with values
+
