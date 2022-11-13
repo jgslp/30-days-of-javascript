@@ -96,3 +96,13 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // }
 // )
 // console.log(pricesWithValues);
+
+// 16. Declare a function called getStringLists which takes an array as a parameter and returns an array only with string items
+// function getStringList(array) {
+//     const stringList = array.filter((item) => 
+//     typeof item === "string"
+//     )
+//     return stringList;
+// }
+
+// console.log(getStringList([1, "pizza", "spaghetti", [4, 5, 6], true]));
