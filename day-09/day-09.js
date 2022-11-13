@@ -88,5 +88,11 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 
 // console.log(firstLetterECountries); // returns empty array
 
-// 15. Use filter to filter out only prices with values
-
+// // 15. Use filter to filter out only prices with values
+// const pricesWithValues = products.filter((product) => {
+//     if (product.price > 0) {
+//         return `${products.product}: ${products.price}`
+//     }
+// }
+// )
+// console.log(pricesWithValues);
