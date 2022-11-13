@@ -123,10 +123,17 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 // console.log(`${concatenatedCountries} are all northern European countries.`);
 
 // 19. Explain the difference between some and every 
+// Some: checks if some elements are similar in one aspect
+// Every: checks if all elements are similar in one aspect
+// Both return a boolean
 
-// 20. Use some to check if some names' length is greater than seven in names array
+// // 20. Use some to check if some names' length is greater than seven in names array
+// const areSomeNamesGreaterThanSevenChars = names.some((name) => name.length > 7);
+// console.log(areSomeNamesGreaterThanSevenChars); // prints true
 
-// 21. Use every to check if all the countries contain the word land
+// // 21. Use every to check if all the countries contain the word land
+// const doAllCountriesContainLand = countries.every(country => country.includes('land'));
+// console.log(doAllCountriesContainLand); // prints false
 
 // 22. Explain the difference between find and findIndex
 
