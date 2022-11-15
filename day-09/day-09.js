@@ -157,20 +157,18 @@ reduce: takes a callback function; takes accumulator, current, and optional init
 
 // EXERCISES LEVEL 2
 
-const products = [
-  { product: 'banana', price: 3 },
-  { product: 'mango', price: 6 },
-  { product: 'potato', price: ' ' },
-  { product: 'avocado', price: 8 },
-  { product: 'coffee', price: 10 },
-  { product: 'tea', price: '' },
-]
+// const products = [
+//   { product: 'banana', price: 3 },
+//   { product: 'mango', price: 6 },
+//   { product: 'potato', price: ' ' },
+//   { product: 'avocado', price: 8 },
+//   { product: 'coffee', price: 10 },
+//   { product: 'tea', price: '' },
+// ]
 
 // 1. Find the total price of products by chaining two or more array iterators
-const pricesOfProducts = products.map((product)=> product.price).filter(price => price > 0).reduce((a, b,) => a + b);
-console.log(pricesOfProducts); // 27
-
-
+// const pricesOfProducts = products.map((product)=> product.price).filter(price => price > 0).reduce((a, b,) => a + b);
+// console.log(pricesOfProducts); // 27
 
 const countries = [
     {
@@ -2185,6 +2183,34 @@ const countries = [
       currency: 'Botswana pula'
     }
   ]
+
+// 2. Find the 10 most spoken languages
+let spokenLanguagesArray = countries.map((country) => country.languages); // returns nested array
+spokenLanguagesArray = spokenLanguagesArray.flat(Infinity).sort(); // returns flattened array sorted alphabetically
+// spokenLanguagesArray.sort(); // sorts array alphabetically
+
+let count = {};
+for (const language of spokenLanguagesArray) {
+  if (count[language]) {
+    count[language] += 1;
+  } else {
+    count[language] = 1;
+  }
+}
+
+let sortCount = [];
+for (let lang in count) {
+  sortCount.push([lang, count[lang]])
+}
+
+let sorted = sortCount.sort(function(a, b) {return b[1] - a[1]}); // puts most frequent first
+
+for (let i = 0; i < 10; i++) {
+  console.log(sorted[i][0])
+}  // Prints English, French, Arabic, Spanish, Portuguese, Russian, Dutch, German, Chinese, Italian
+
+
+// const pricesOfProducts = products.map((product)=> product.product + ": " + product.price);
 
 // 3. Declare a function called categorizeCountries which returns an array of countries which have some common pattern
 
