@@ -2209,9 +2209,6 @@ for (let i = 0; i < 10; i++) {
   console.log(sorted[i][0])
 }  // Prints English, French, Arabic, Spanish, Portuguese, Russian, Dutch, German, Chinese, Italian
 
-
-// const pricesOfProducts = products.map((product)=> product.product + ": " + product.price);
-
 // 3. Declare a function called categorizeCountries which returns an array of countries which have some common pattern
 
 // 4. Create a function which will return an array of objects, which is the letter and the number of times the letter use to start with a name of a country
