@@ -167,10 +167,10 @@ const products = [
 ]
 
 // 1. Find the total price of products by chaining two or more array iterators
+const pricesOfProducts = products.map((product)=> product.price).filter(price => price > 0).reduce((a, b,) => a + b);
+console.log(pricesOfProducts); // 27
 
 
-const sumOfPrices = products.reduce((accumulator, ))
-console.log(pricesWithValues);
 
 const countries = [
     {
